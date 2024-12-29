@@ -1,0 +1,40 @@
+9	RES1 - Residential Area
+9	RES2 - Residential Area
+6	RES3 - Residential Area
+1	RES4 - Residential Area
+3	LAK1 - Lake
+8	LAK2 - Lake
+4	RIV1 - River
+10	BAN1 - Bank
+3	BAN2 - Bank
+5	BAN3 - Bank
+8	BAN4 - Bank
+4	BAN5 - Bank
+1	BAN6 - Bank
+1	BAN7 - Bank
+6	PAR1 - Park
+8	PAR2 - Park
+5	PAR3 - Park
+6	SHO1 - Shopping Mall
+9	SHO2 - Shopping Mall
+5	UNI1 - University
+6	UNI2 - University
+8	UNI3 - University
+2	FOR1 - Forest Reserve
+7	GOV1 - Government Office
+9	GOV2 - Government Office
+10	FAR1 - Farm
+10	FAR2 - Farm
+6	IT 1 - IT Industry
+7	IT 2 - IT Industry
+1	TEC1 - Tech Park
+2	RAI1 - Railway Station
+9	ATM1 - ATM
+1	ATM2 - ATM
+2	ATM3 - ATM
+10	ATM4 - ATM
+3	ATM5 - ATM
+3	ATM6 - ATM
+4	ATM7 - ATM
+10	ATM8 - ATM
+8	ATM9 - ATM
