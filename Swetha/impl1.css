@@ -5,39 +5,41 @@ body {
     padding: 0;
     background: linear-gradient(135deg, #C8ABE6, #6EB8E1); /* Lavender Gradient */
     display: flex;
-    flex-direction: column; /* Stack content vertically */
-    justify-content: center; /* Align center vertically */
-    align-items: center; /* Align horizontally */
+    flex-direction: column;
+    justify-content: flex-start; /* Align content at the top */
+    align-items: center; /* Horizontally center content */
     height: 100vh; /* Full height */
 }
 
 .wrapper {
-    width: 90%; /* Width of the content */
-    max-width: 800px; /* Set maximum width for readability */
-    margin-top: 20px; /* Space from top of the screen */
+    width: 90%;
+    max-width: 1200px;  /* Ensure the content doesn’t stretch too wide */
+    margin-top: 20px; /* Give some space from the top */
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .box {
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff; /* White background for the content */
     margin-bottom: 20px;
-    padding: 15px; /* Adjust padding */
+    padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 .heading {
     background-color: #000; /* Black background for heading */
     color: #fff;
-    padding: 8px 15px;
+    padding: 8px 16px;
     border-radius: 5px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 15px;
 }
 
 p {
     font-size: 16px;
-    margin: 8px 0; /* Adjust space between paragraphs */
+    margin: 8px 0;
 }
 
 strong {
