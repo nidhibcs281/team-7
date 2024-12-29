@@ -1,0 +1,148 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #BAD0CC, #409891); /* Updated gradient */
+    color: black;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 1em;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styling */
+#home-header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: transparent; /* No white background */
+    color: black;
+}
+
+#home-header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+}
+
+#home-header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+    line-height: 1.6em;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background: rgba(255, 255, 255, 0.9); /* Slight transparency for section */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Updated Team Section */
+.flashcards {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4; 
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 900px;
+}
+
+.flashcards h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* Updated Team Container */
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+    gap: 30px;
+    justify-content: center;
+}
+
+/* Updated Card Styling */
+.card {
+    width: auto; 
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid transparent;
+    text-align: center;
+}
+
+/* Border and Title Colors */
+.card:nth-child(1) {
+    border-color: #E07A5F; 
+}
+
+.card:nth-child(2) {
+    border-color: #3D8361; 
+}
+
+.card:nth-child(3) {
+    border-color: #6B705C; 
+}
+
+.card:nth-child(4) {
+    border-color: #CA3E47; 
+}
+
+.card h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.card a {
+    display: inline-block;
+    text-align: center;
+    padding: 8px 12px;
+    background-color: #495867; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.card a:hover {
+    background-color: #2C3E50;
+}
