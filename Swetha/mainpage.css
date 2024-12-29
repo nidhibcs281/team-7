@@ -39,6 +39,18 @@ nav ul li a:hover {
     color: white;
 }
 
+.intro-section, .projects-section, .skills-section, .find-me-online-section, .portfolio-topic-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .intro-section {
     margin-top: 30px;
     padding: 40px 20px;

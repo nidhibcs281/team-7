@@ -1,4 +1,4 @@
-/* style.css */
+/* Updated style.css */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -38,23 +38,33 @@ nav ul li a:hover {
 
 main {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    align-items: center; /* Centers main content horizontally */
+    justify-content: center; /* Centers main content vertically */
     padding: 20px;
+    min-height: calc(100vh - 100px); /* Ensures the main content fills the viewport */
+    text-align: center;
+}
+
+.intro-section, .projects-section, .skills-section, .find-me-online-section, .portfolio-topic-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 800px;
 }
 
 .intro-section {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
+}
+
+.content {
+    max-width: 600px;
 }
 
 .content h1 {
@@ -68,16 +78,38 @@ main {
     line-height: 1.6;
 }
 
-blockquote {
+.content blockquote {
     font-style: italic;
-    color: #555;
-    margin-top: 20px;
+    color: #333;
+    margin: 20px 0;
 }
 
 .image img {
-    max-width: 150px;
-    border-radius: 50%;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+ul, dl {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+ul li, dl dt, dl dd {
+    margin-bottom: 8px;
 }
 
 footer {
@@ -85,7 +117,21 @@ footer {
     padding: 10px 0;
     background-color: #D6E6F2;
     color: black;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .intro-section {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .content {
+        max-width: 50%;
+    }
+
+    .image img {
+        max-width: 400px;
+    }
 }
