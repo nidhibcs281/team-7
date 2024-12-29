@@ -8,22 +8,33 @@
 </head>
 <body>
     <div class="wrapper">
+        <!-- Ensure the section container has padding at the top -->
         <section class="box">
             <h2 class="heading">1. Providing Wi-Fi Networks in Public Spaces</h2>
+
+            <!-- Added SDG, Target, and Indicator below the heading -->
+            <p><strong>SDG:</strong> 11</p>
+            <p><strong>Target:</strong> 11.7</p>
+            <p><strong>Indicator:</strong> 11.7.1 </p>
+
             <p><strong>Public Wi-Fi networks are crucial for enabling affordable and widespread internet access in cities, such as parks, healthcare centres, business offices, etc.</strong></p>
 
-            <p><strong>1. Hashing:</strong> Used to manage user connections and their devices. Passwords of each rotor has to be safely stored and hashed into hash table.</p>
+            <p><strong>1. Hashing:</strong> Used to manage user connections and their devices. Passwords of each router have to be safely stored and hashed into hash table.</p>
             <p><strong>Efficiency:</strong> Best case for searching, inserting, and deleting in O(1) time, and in the worst case O(n).</p>
 
             <p><strong>2. Dijkstra's Algorithm:</strong> Optimizes the route of internet traffic across different access points. Dijkstra’s Algorithm helps find the fastest route for data from a user to the nearest Wi-Fi access point.</p>
-
             <p><strong>Efficiency:</strong> The efficiency is O(|E| log|V|), with the graph represented by adjacency lists and a min-heap priority queue.</p>
 
-            <p><strong>3. Queues:</strong> Used for managing the queuing system of users trying to connect. With a Queue, we can ensure that users are serviced in the order they request connections.</p>
+            <p><strong>3. Brute force string search Algorithm:</strong> Used for efficiently searching and identifying available Wi-Fi IDs across the network. BFS is ideal for exploring Wi-Fi access points in a breadth-first manner to find the closest, non-occupied access point available for new users.</p>
+            <p><strong>Efficiency:</strong> Efficiency of algorithm is O(mn).</p>
 
-            <p><strong>4. Merge Sort:</strong> Used to sort Wi-Fi access points based on their distance from a user's location. By sorting the access points in ascending order of their distance, Merge Sort helps ensure users are connected to the nearest access point.</p>
+            <p><strong>4. Queues:</strong> Used for managing the queuing system of users trying to connect. With a Queue, we can ensure that users are serviced in the order they request connections.</p>
 
-            <p><strong>Efficiency:</strong> Merge Sort has a time complexity of O(n log n)</p>
+            <p><strong>5. Merge Sort:</strong> Used to sort Wi-Fi access points based on their distance from a user's location. By sorting the access points in ascending order of their distance, Merge Sort helps ensure users are connected to the nearest access point.</p>
+            <p><strong>Efficiency:</strong> Merge Sort has a time complexity of O(n log n).</p>
+            
+            <!-- Adding image below text content -->
+            <img src="wifi_network.jpg" alt="WiFi Network" style="width:100%; max-width:600px;">
         </section>
     </div>
 </body>
