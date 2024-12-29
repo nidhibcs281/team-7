@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(135deg, #C8ABE6, #6EB8E1);
+  color: #333;
+  padding: 20px;
+}
+
+/* Navigation Bar Styling */
+nav {
+  background-color: #C71585; /* Dark Pink Color */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 10px 20px;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 10px 15px;
+  transition: background 0.3s;
+}
+
+.navbar a:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+
+/* Header Styling */
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #333;
+}
+
+/* Section Styling */
+.section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Section Headings */
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 2px solid #C71585;
+  padding-bottom: 5px;
+}
+
+/* Highlights and Examples */
+.important {
+  background-color: #f0f8ff;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: square;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #D6E6F2;
+  margin-top: 50px;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+  .navbar a {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .section {
+    margin: 10px;
+    padding: 10px;
+  }
+}

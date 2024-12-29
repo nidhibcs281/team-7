@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #C8ABE6, #6EB8E1); /* Lavender Gradient */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Align center vertically */
+    align-items: center; /* Align horizontally */
+    height: 100vh; /* Full height */
+}
+
+.wrapper {
+    width: 90%; /* Width of the content */
+    max-width: 800px; /* Set maximum width for readability */
+    margin-top: 20px; /* Space from top of the screen */
+}
+
+.box {
+    background-color: #ffffff; /* White background */
+    margin-bottom: 20px;
+    padding: 15px; /* Adjust padding */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    background-color: #000; /* Black background for heading */
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    margin: 8px 0; /* Adjust space between paragraphs */
+}
+
+strong {
+    font-weight: bold;
+}

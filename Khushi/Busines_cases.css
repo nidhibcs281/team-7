@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, #bface5, #000000); /* Gradient background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #ff66b2; /* Pink header */
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the boxes horizontally */
+}
+
+.case {
+    background-color: #ffffff; 
+    margin: 20px 0;
+    padding: 20px; /* Decreased padding */
+    width: 80%; /* Reduced the width to make it smaller */
+    max-width: 800px; /* Restrict max width for better scaling */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff66b2; /* Pink heading */
+    font-size: 22px;
+    border-bottom: 2px solid #ff66b2;
+    padding-bottom: 10px;
+}
+
+.sdg-section {
+    padding: 10px;
+}
+
+.sdg-section ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.sdg-section li {
+    font-size: 16px;
+    color: #555;
+}
+
+.target {
+    font-size: 14px;
+    color: #444;
+}
+
+.algorithm-section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+}
+
+.algorithm-section ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.algorithm-section li {
+    font-size: 16px;
+    color: #555;
+}
+
+.algorithm-section strong {
+    font-size: 18px;
+    color: #ff66b2;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    .case {
+        width: 90%; /* Allow more flexibility on smaller screens */
+    }
+}
+

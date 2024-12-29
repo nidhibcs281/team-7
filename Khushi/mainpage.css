@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #C8ABE6, #6EB8E1);
+    color: black;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+    margin: 40px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.top-navigation {
+    background-color: #FFB6C1; /* Pink color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.top-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.top-navigation ul li {
+    margin: 0 15px;
+}
+
+.top-navigation ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.top-navigation ul li a:hover {
+    color: white;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+p, ul li, dl dd {
+    color: #333;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+dl {
+    text-align: center;
+    margin: 0 auto;
+}
+
+dl dt {
+    font-weight: bold;
+    color: #444;
+    margin-top: 10px;
+}
+
+dl dd {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+footer {
+    margin-top: 30px;
+    background: #FFB6C1; /* Pink */
+    padding: 10px 0;
+    color: black;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
