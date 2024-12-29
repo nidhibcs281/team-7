@@ -1,0 +1,41 @@
+Location Name,Type,Parking Zone ID,Total Parking Spots,Occupied Spots,Priority Score
+Residential Area 1,Residential,R1-01,100,70,2
+Residential Area 2,Residential,R2-01,120,85,3
+Residential Area 3,Residential,R3-01,150,110,5
+Residential Area 4,Residential,R4-01,200,170,6
+Lake 1,Lake,L1-01,50,30,8
+Lake 2,Lake,L2-01,60,25,7
+River,River,RV-01,40,20,10
+Bank 1,Bank,B1-01,30,25,4
+Bank 2,Bank,B2-01,35,28,3
+Bank 3,Bank,B3-01,20,15,5
+Bank 4,Bank,B4-01,25,18,6
+Bank 5,Bank,B5-01,40,35,2
+Bank 6,Bank,B6-01,15,10,8
+Bank 7,Bank,B7-01,30,20,7
+Park 1,Park,P1-01,60,45,9
+Park 2,Park,P2-01,70,55,8
+Park 3,Park,P3-01,80,70,6
+Shopping Mall 1,Shopping Mall,SM1-01,300,250,1
+Shopping Mall 2,Shopping Mall,SM2-01,250,200,1
+University 1,University,U1-01,200,150,3
+University 2,University,U2-01,180,140,4
+University 3,University,U3-01,220,180,2
+Forest Reserve,Forest Reserve,FR-01,50,10,10
+Government Office 1,Government Office,GO1-01,100,85,5
+Government Office 2,Government Office,GO2-01,90,70,6
+Farm 1,Farm,F1-01,20,15,9
+Farm 2,Farm,F2-01,25,10,9
+IT Industry 1,IT Industry,ITI1-01,150,120,2
+IT Industry 2,IT Industry,ITI2-01,160,130,3
+Tech Park,Tech Park,TP-01,300,270,1
+Railway Station,Railway Station,RS-01,400,350,1
+ATM 1,ATM,A1-01,10,5,10
+ATM 2,ATM,A2-01,10,6,9
+ATM 3,ATM,A3-01,12,9,8
+ATM 4,ATM,A4-01,10,4,9
+ATM 5,ATM,A5-01,15,12,7
+ATM 6,ATM,A6-01,8,4,10
+ATM 7,ATM,A7-01,6,2,10
+ATM 8,ATM,A8-01,12,10,8
+ATM 9,ATM,A9-01,10,7,9
