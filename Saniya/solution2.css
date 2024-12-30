@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #C8ABE6, #6EB8E1); /* Lavender Gradient */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content at the top */
+    align-items: center; /* Horizontally center content */
+    height: 100vh; /* Full height */
+  }
+  
+  .wrapper {
+    width: 90%;
+    max-width: 1200px;  /* Ensure the content doesn’t stretch too wide */
+    margin-top: 20px; /* Give some space from the top */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .box {
+    background-color: #ffffff; /* White background for the content */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .heading {
+    background-color: #000; /* Black background for heading */
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
