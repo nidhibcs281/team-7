@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Cases</title>
+    <link rel="stylesheet" href="solution2.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Section: Fraud Detection in Private Banks -->
+        <section class="box">
+            <h2 class="heading">Fraud Detection in Private Banks</h2>
+
+            <p><strong>SDG:</strong> 11</p>
+            <p><strong>Target:</strong> 11.2</p>
+            <p><strong>Indicator:</strong> 11.2.1</p>
+
+            <p><strong>An Income Tax Officer is tasked with auditing four banks (Bank A, Bank B, Bank C, and Bank D). The officer needs to minimize the total distance traveled while visiting all the banks starting from Bank A. Additionally, there is a need to ensure the security and integrity of banking transactions by detecting fraudulent activities at each bank.</strong></p>
+
+            <p><strong>The banks and their interconnections are represented as a graph:</strong></p>
+            <ul>
+                <li>Each bank is a vertex (Bank A = 0, Bank B = 1, Bank C = 2, Bank D = 3).</li>
+                <li>The roads connecting the banks have specific distances (weights).</li>
+                <li>The graph is implemented using an adjacency list.</li>
+            </ul>
+
+            <p><strong>Algorithm 1:</strong> Dijkstra's Algorithm</p>
+            <p><strong>Description:</strong> Computes the shortest path from Bank A to all other banks.</p>
+            <p><strong>Efficiency:</strong> O(|E| log|V|)</p>
+
+            <p><strong>Algorithm 2:</strong> Brute Force Search Algorithm</p>
+            <p><strong>Description:</strong> Identifies fraudulent transactions in the transaction records of each bank using a predefined fraud pattern (e.g., transactions containing the keyword "Fraudulent").</p>
+
+           <a href="https://docs.google.com/document/d/1NNgPz5QBK57DltuYMLFumqQkyzWVB464uJ8YWQaYibs/edit?usp=sharing"><h3>Code</h3></a>
+        </section>
+    </div>
+</body>
+</html>
